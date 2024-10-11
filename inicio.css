@@ -1,0 +1,230 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b15656;
+    color: #333;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.hero {
+    height: 45vh;
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 4em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.hero a {
+    background-color: #ff6b6b;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilo para los enlaces de navegación */
+nav {
+    display: flex;
+    justify-content: center; /* Centrar los enlaces */
+    background-color: #333; /* Fondo oscuro */
+    padding: 10px 0; /* Espaciado arriba y abajo */
+    margin: 20px 0; /* Espaciado arriba y abajo del navbar */
+}
+
+nav a {
+    color: white; /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+    padding: 10px 20px; /* Espaciado alrededor del texto */
+    margin: 0 15px; /* Espaciado lateral entre enlaces */
+    border-radius: 5px; /* Bordes redondos */
+    transition: background-color 0.3s; /* Transición suave*/
+}
+
+/* Estilo para el hover */
+nav a:hover {
+    background-color: #ff6b6b; /* Cambiar color al pasar el mouse */
+}
+
+/* Estilo para el botón "Compra Ya" */
+#buy-button {
+    background-color: #ff6b6b; /* Fondo del botón */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar */
+    text-decoration: none; /* Sin subrayado */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+/* Efecto al pasar el mouse sobre el botón "Compra Ya" */
+#buy-button:hover {
+    background-color: #e55a5a; /* Color de fondo al pasar el mouse */
+}
+
+/* Sección de productos */
+.products {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+}
+
+.product {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product h2 {
+    margin: 10px 0;
+}
+
+/* Estilos para la sección Sobre Nosotros */
+#about-us {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#about-us h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#about-us p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Estilos para la sección Blog */
+#blog {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+#blog h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#blog article {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#blog article h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+#blog article p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+/* Estilos para la sección Contacto */
+#contact {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#contact form {
+    display: inline-block;
+    max-width: 500px;
+    text-align: left;
+}
+
+#contact form label {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#contact form input, 
+#contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+#contact form button {
+    padding: 10px 20px;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+#contact form button:hover {
+    background-color: #e05656;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+html {
+    scroll-behavior: smooth; /* Desplazamiento suave */
+}
+
+footer a {
+    color: #fff; /* Cambia el color del texto del enlace */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    margin: 0 10px; /* Espaciado entre íconos */
+}
+
+footer a i {
+    font-size: 2.5em; /* Tamaño del ícono */
+    vertical-align: middle; /* Alinea el ícono con el texto */
+}
+
+footer a:hover {
+    color: #ff6b6b; /* Cambia el color al pasar el ratón */
+}
+

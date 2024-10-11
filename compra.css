@@ -1,0 +1,113 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Fondo claro */
+}
+
+.products {
+    display: grid; /* Usar grid para un diseño ordenado */
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); /* Tamaño mínimo más pequeño */
+    gap: 15px; /* Menos espacio entre los productos */
+    padding: 20px; /* Menor padding alrededor de los productos */
+    max-width: 900px; /* Ancho máximo reducido para la sección */
+    margin: 20px auto; /* Centrar la sección */
+}
+
+.product {
+    background-color: white; /* Fondo blanco para los productos */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para profundidad */
+    display: flex; /* Usar flexbox para alinear el contenido */
+    flex-direction: column; /* Alinear el contenido verticalmente */
+    align-items: center; /* Centrar los elementos horizontalmente */
+    transition: transform 0.3s ease; /* Efecto de transformación al pasar el mouse */
+}
+
+.product:hover {
+    transform: scale(1.05); /* Aumentar ligeramente el tamaño al pasar el mouse */
+}
+
+.product img {
+    width: 100%; /* La imagen ocupa el ancho completo del contenedor */
+    height: auto; /* Mantener la proporción de la imagen */
+}
+
+.product h2 {
+    font-size: 1.4em; /* Tamaño de fuente más pequeño para el título */
+    margin: 8px 0; /* Menor margen arriba y abajo */
+    color: #333; /* Color del texto */
+    text-align: center; /* Centrar el texto */
+}
+
+.product p {
+    font-size: 1.1em; /* Tamaño de fuente para el precio */
+    color: #ff6b6b; /* Color para el precio */
+    text-align: center; /* Centrar el precio */
+}
+
+.product a {
+    display: inline-block; /* Mostrar como bloque en línea */
+    background-color: #ff6b6b; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    padding: 8px 15px; /* Espaciado interno más pequeño para el botón */
+    border-radius: 5px; /* Bordes redondeados para el botón */
+    text-decoration: none; /* Sin subrayado */
+    text-align: center; /* Centrar el texto */
+    transition: background-color 0.3s ease; /* Transición suave para el color de fondo */
+}
+
+.product a:hover {
+    background-color: #e05656; /* Color del botón al pasar el mouse */
+}
+
+#search-bar {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff; /* Fondo blanco */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+#search-form {
+    display: inline-block;
+}
+
+#search-input {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#search-form button {
+    padding: 10px 15px;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#search-form button:hover {
+    background-color: #e05656;
+}
+
+#categories {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff; /* Fondo blanco */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+.category-button {
+    margin: 0 10px;
+    padding: 10px 15px;
+    background-color: #ff6b6b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.category-button:hover {
+    background-color: #e05656;
+}
